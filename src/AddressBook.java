@@ -40,7 +40,7 @@ public class AddressBook {
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613-789-9887");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
-
+        addressBook.removeBuddy(buddy);
     }
 
 }
