@@ -36,9 +36,14 @@ public class AddressBook {
         }
     }
 
+    public void printDescription() {
+        System.out.println("Hi. This is a test.");
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "613-789-9887");
         AddressBook addressBook = new AddressBook();
+
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
     }
